@@ -5,6 +5,36 @@
             "category": 0,
             "name": "personal",
             "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "municipal",
+            "description": "Fireworks intended for purchase by cities for July 4 celebrations"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "family",
+            "description": "Bigger than the ones you get to play with yourself. Smaller than others."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "avalanche_preventor",
+            "description": "Used by ski-patrol to fight off too much accumulation"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "tunnel_builder",
+            "description": "The stuff you need for tunnel blasting and other roadwork"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "constructor",
+            "description": "The stuff they use to create a pit before they lay foundation for buildings"
         }
     ]
 }
