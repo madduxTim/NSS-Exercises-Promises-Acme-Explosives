@@ -3,18 +3,31 @@ let products = [];
 let types = [];
 let categories = [];
 
-// var buildProducts = new Promise(function(resolve, reject){
-//     $.ajax({
-//         url: "products.json"
-//     }).done(function(productsData){
-//         resolve(productsData.products[0]);
-//     });
-// }); 
-// buildProducts
-//     .then(doSomething);
-// function doSomething(productArray){
-//     console.log("products: ", productArray);
-// };
+var buildProducts = new Promise(function(resolve, reject){
+    $.ajax({
+        url: "products.json"
+    }).done(function(productsData){
+        resolve(productsData.products[0]);
+    });
+}); 
+buildProducts
+    .then(doSomething);
+function doSomething(productArray){
+    console.log("products: ", productArray);
+};
+
+var buildCategories = new Promise(function(resolve, reject){
+    $.ajax({
+        url: "categories.json"
+    }).done(function(categoriesData){
+        resolve(categoriesData.categories);
+    });
+}); 
+buildCategories
+    .then(showCategories);
+function showCategories(categoriesArray){
+    console.log("products: ", categoriesArray);
+};
 
 var buildTypes = new Promise(function(resolve, reject){
     $.ajax({
@@ -27,31 +40,27 @@ buildTypes
     .then(addTypes)
 
 function addTypes(typesData) {
-    console.log(typesData, typesData.types);
     for (type in typesData.types) {
         var string = "";
         var type = typesData.types[type];
-        string += "<div>";
+        string += "<div class='col-md-6 card'>";
         string += `<p>${type.name}</p>`;
         string += `<p>${type.description}</p>`;
         string += "</div>";
-        document.getElementById("output").innerHTML += string;
+        $("#output").append(string);
     }
-        console.log("string", string);
-}
+};
 
-// var buildCategories = new Promise(function(resolve, reject){
-//     $.ajax({
-//         url: "categories.json"
-//     }).done(function(categories) {
-//         resolve(categories);
-//     });
-// });
-// buildCategories
-//     .then(addTypes)
-// function addTypes(categories) {
-//     console.log("categories: ", categories);
-// }
+$("#selector").change(function(){
+    if ($("#selector").val()==="Demolition") {
+        console.log("demo!");
+        // Call function to load demos;
+    } else if ($("#selector").val() === "Fireworks") {
+        console.log("fuego trabajos");
+        // call function to load fireworks;
+    };
+})
+
 
 /* -------------------- playing around with TreeHouse stuff ------------------- */
 
