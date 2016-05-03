@@ -4,110 +4,110 @@
             "fairy_sparklers": {
                 "id": 0,
                 "type": 0,
-                "name": "Mary's Sparklers",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "name": "Sparklers",
+                "description": "Here's where a product description would go."
             },
             "susan": {
                 "id": 1,
                 "type": 0,
                 "name": "Susan",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "wilma": {
                 "id": 2,
                 "type": 0,
                 "name": "Wilma",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "jenny": {
                 "id": 3,
                 "type": 1,
                 "name": "Jenny",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "karen": {
                 "id": 4,
                 "type": 1,
                 "name": "Karen",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "katie": {
                 "id": 5,
                 "type": 1,
                 "name": "Katie",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "tobey": {
                 "id": 6,
                 "type": 2,
                 "name": "Tobey",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "evan": {
                 "id": 7,
                 "type": 2,
                 "name": "Evan",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "jake": {
                 "id": 8,
                 "type": 2,
                 "name": "Jake",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "tony": {
                 "id": 9,
                 "type": 3,
                 "name": "Tony",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "sam": {
                 "id": 10,
                 "type": 3,
                 "name": "Sam",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "phil": {
                 "id": 11,
                 "type": 3,
                 "name": "Phil",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "frank": {
                 "id": 12,
                 "type": 4,
                 "name": "Frank",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "jeff": {
                 "id": 13,
                 "type": 4,
                 "name": "Jeff",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "bill": {
                 "id": 14,
                 "type": 4,
                 "name": "Bill",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "max": {
                 "id": 15,
                 "type": 5,
                 "name": "Max",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "jimmy": {
                 "id": 16,
                 "type": 5,
                 "name": "Jimmy",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             },
             "james": {
                 "id": 17,
                 "type": 5,
                 "name": "James",
-                "description": "Multi-colored sparklers that are safe for any age."
+                "description": "Here's where a product description would go."
             }
         }
     ]

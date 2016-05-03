@@ -1,3 +1,25 @@
+body {
+    background-color: lightgray;
+}
 .card {
-    border: 2px solid red;
+    border: 2px solid darkgray;
+    margin: 1%;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.category {
+    float: right;
+}
+
+.typeName {
+    float: left;
+}
+
+.productName {
+    clear: both;
+}
+
+.badge {
+    background-color: red;
 }
